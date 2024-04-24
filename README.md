@@ -16,7 +16,8 @@ Untuk membuat database gunakan perintah sebagai berikut :
 lalu, setelah kita membuat database. kita masuk kedalam database tersebut dengan perintah sebagai berikut :
 
 `USE latihan2;`
-![alt text](ko1.png)
+![ko1](https://github.com/MuhArifyanto/MySQL1/assets/147913440/59ec93e1-dd60-4174-9e96-5b0524539d67)
+
 
 **2. Buat sebuah tabel dengan nama biodata (nama, alamat) didalam database latihan2!**
 
