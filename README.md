@@ -31,51 +31,58 @@ Untuk membuat Tabel gunakan perintah sebagai berikut :
     nama varchar (100),
     alamat text
     );`
-![alt text](ko2-1.png)
+![ko2](https://github.com/MuhArifyanto/MySQL1/assets/147913440/61759bdf-6367-4bba-9e22-ff8efb0ae353)
+
 
 **3. Tambahkan sebuah kolom keterangan (varchar 15), sebagai kolom terakhir!**
 
 Contoh :
 
 `ALTER TABLE biodata ADD COLUMN keterangan VARCHAR (15);`
-![alt text](ko3.png)
+
+![ko3](https://github.com/MuhArifyanto/MySQL1/assets/147913440/97a0c45c-2b7e-4424-9280-0edadcd9a27c)
+
 
 **4.Tambahkan kolom id(int 11) di awal (sebagai kolom pertama)!**
 
 Untuk menambahkan kolom pertama yaitu dengan perintah sebagai berikut :
 
 `ALTER TABLE biodata ADD COLUMN id int FIRST; `
-![alt text](ko4.png)
+![ko4](https://github.com/MuhArifyanto/MySQL1/assets/147913440/ee321b7b-0cd2-42a6-a5e6-a0d2146e81a2)
+
 
 **5. Sisipkan sebuah kolom dengan nama phone (varchar 15) setelah kolom alamat!**
 
 Untuk menambahkan kolom setelah kolom lain yaitu dengan perintah `AFTER`
-![alt text](ko5-1.png)
+![ko5](https://github.com/MuhArifyanto/MySQL1/assets/147913440/8dfbd6de-bd83-42c4-a754-d89591e22dce)
 
 **6. Ubah tipe data kolom id menjadi char(11)!**
 
 Untuk mengubah type data yaitu dengan perintah sebagai berikut :
 
 `ALTER TABLE [nama_tabel] MODIFY nama_field tipe_data_baru(ukuran);`
-![alt text](ko6.png)
+![ko6](https://github.com/MuhArifyanto/MySQL1/assets/147913440/aaea8f16-0abf-4dc0-859f-e0592a634208)
+
 
 **7. Ubah nama kolom phone menjadi hp (char 20)!**
 
 Untuk mengubah kolom yaitu dengan perintah sebgai berikut :
 
 `ALTER TABLE [nama_tabel] CHANGE nama_field_lama nama_field_baru tipe_data(ukuran);`
-![alt text](ko7.png)
+![ko7](https://github.com/MuhArifyanto/MySQL1/assets/147913440/5d1f3890-e786-4618-92dc-7f126ecd96a5)
+
 
 **8. Tambahkan kolom email setelah kolom hp**
 
-![alt text](ko8.png)
+![ko8](https://github.com/MuhArifyanto/MySQL1/assets/147913440/6d99d122-5fff-4221-9512-5956de13967e)
+
 
 **9. Hapus kolom keterangan dari tabel!**
 
 Untuk menghapus kolom dari tabel yaitu dengan perintah sebagai berikut :
 
 `ALTER TABLE [nama_tabel] DROP nama_field;`
-![alt text](ko9.png)
+![ko9](https://github.com/MuhArifyanto/MySQL1/assets/147913440/7bc3eae8-8f10-45cf-b55c-45f3ed53484a)
 
 **10. Ganti nama tabel menjadi data_mahasiswa!**
 
@@ -83,11 +90,12 @@ Untuk mengganti nama tabel yaitu dengan perintah sebagai berikut :
 
 `ALTER TABLE [nama_tabel] RENAME [nama_tabel_baru];`
 
-![alt text](ko10.png)
+![ko10](https://github.com/MuhArifyanto/MySQL1/assets/147913440/17f271ad-8169-4dbc-9c39-3840ba97d4bd)
+
 
 **11. Ganti nama field id menjadi nim!**
 
-![alt text](ko11.png)
+![ko11](https://github.com/MuhArifyanto/MySQL1/assets/147913440/bbf72432-bf4a-4177-9e8a-745137b37d13)
 
 **12. Jadikan nim sebagai PRIMARY KEY!**
 
@@ -100,12 +108,13 @@ tipe index :
 - FULLTEXT
 
 `ALTER TABLE [nama_tabel] ADD [INDEX|PRIMARY KEY] (nama_field);`
-![alt text](ko12.png)
+![ko12](https://github.com/MuhArifyanto/MySQL1/assets/147913440/59c8a891-dcca-44c1-839b-0ca41b9d549d)
+
 
 **13. Jadikan kolom email sebagai UNIQUE KEY!**
 
 Perintah nya sama seperti diatas, hanya saja diganti menjadi `UNIQUE KEY`
-![alt text](ko13.png)
+![ko13](https://github.com/MuhArifyanto/MySQL1/assets/147913440/ab5fc605-309e-42ff-8497-5ca5ce97006e)
 
 ## 2. Apa Maksud Dari INT(11) ?
 
